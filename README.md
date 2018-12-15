@@ -9,7 +9,7 @@ IDE style [Smart Keys](https://www.jetbrains.com/help/idea/settings-smart-keys.h
 
 ## What's it do? 
 
-Adds "Insert Pair' and "Surround Selection" behaviors to any ContentEditable DOM node or Textarea. 
+A tiny library for adding "Insert Pair' and "Surround Selection" SmartKey behaviors to any ContentEditable DOM node or Textarea. 
 
 
 ## Quick Start
@@ -74,7 +74,7 @@ Now typing the `*` character with a section of text selected would automatically
 
 ### Browser Support: 
 
-Works on any browsers that support the HTML Edit APIs with one minor exception: 
+Loosely and informally tested on Firefox, Chrome, and Edge. Theoretically it works on any browser that supports the HTML Edit APIs (with the exception below). 
 
 
 **`textarea` usage in FireFox**
@@ -82,8 +82,8 @@ Works on any browsers that support the HTML Edit APIs with one minor exception:
 There is an active [bug in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1220696) which prevents the HTML Editing APIs from working correctly. `contenteditables` work fine, the issue is constrained to `textareas`. Smartkeys includes a fallback mode for Firefox (`{firefoxFallbackMode': true}`) which will enable functionality using alternative APIs. However, the caveat there is that undo _does not work_ due to _other_ Firefox issues.
 
 
-### About
+### State of the Project 
 
-Smartkeys was born out of work on an unrelated editor. It took me quite awhile to navigate using the incredibly strange and stateful [Selection](https://developer.mozilla.org/en-US/docs/Web/API/Selection) and [Range](https://developer.mozilla.org/en-US/docs/Web/API/Range) APIs, so thought breaking out this little piece on its own may be of some value to others from an example / how-to point of view. 
+Smartkeys is a quick dump from work on an unrelated editor project. It took me quite awhile to navigate using the incredibly strange and stateful Selection and Range javascript APIs, so thought breaking out this little piece on its own may be of some value to others from an example / how-to point of view.
 
-
+It satisfies a few narrow use cases, is written for the happy path, and makes for a fun toy. Probs shouldn't be used in production without a thorough vetting for quirks and a bit of battle hardening!  
