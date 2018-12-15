@@ -2,7 +2,7 @@
  * Basic "Smart Keys" style behavior for
  * ContentEditables and textareas.
  */
-
+;(function(root) {
 
 /**
  * Returns a new function that is the composition
@@ -450,5 +450,22 @@ const fromConfig = (conf) => {
 };
 
 
-exports.fromConfig = fromConfig;
-exports.defaults = defaults;
+const smartKeys = {fromConfig, defaults}
+
+if( typeof exports !== 'undefined' ) {
+  if( typeof module !== 'undefined' && module.exports ) {
+    exports = module.exports = smartKeys
+  }
+  exports.smartKeys = smartKeys
+}
+else {
+  root.smartKeys = smartKeys
+}
+
+
+})(this);
+
+
+
+
+
