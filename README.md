@@ -87,3 +87,5 @@ There is an active [bug in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id
 Smartkeys is a quick dump from work on an unrelated editor project. It took me quite awhile to navigate using the incredibly strange and stateful Selection and [Range](https://developer.mozilla.org/en-US/docs/Web/API/Range) javascript APIs, so thought breaking out this little piece on its own may be of some value to others from an example / how-to point of view.
 
 It satisfies a few narrow use cases, is written for the happy path, and makes for a fun toy. Probs shouldn't be used in production without a thorough vetting for quirks and a bit of battle hardening!  
+
+Baring unexpected interest in this niche littel fella, it'll remain in its current state. 
