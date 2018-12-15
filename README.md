@@ -9,7 +9,7 @@ IDE style [Smart Keys](https://www.jetbrains.com/help/idea/settings-smart-keys.h
 
 ## What's it do? 
 
-A tiny library for adding "Insert Pair' and "Surround Selection" SmartKey behaviors to any ContentEditable DOM node or Textarea. 
+A tiny experimental library for adding "Insert Pair' and "Surround Selection" SmartKey behaviors to any ContentEditable DOM node or Textarea. 
 
 
 ## Quick Start
