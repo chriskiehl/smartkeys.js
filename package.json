@@ -1,0 +1,25 @@
+{
+  "name": "smartkeys.js",
+  "version": "0.1.0",
+  "description": "Simple IntelliJ style Smartkeys in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriskiehl/smartkeys.js.git"
+  },
+  "keywords": [
+    "smartkeys"
+  ],
+  "author": "chris kiehl ckiehl@gmail.com chriskiehl.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chriskiehl/smartkeys.js/issues"
+  },
+  "homepage": "https://github.com/chriskiehl/smartkeys.js#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
