@@ -14,6 +14,12 @@ A tiny experimental library for adding "Insert Pair' and "Surround Selection" Sm
 Open the [example](https://github.com/chriskiehl/smartkeys.js/blob/master/examples/example.html) to give it a whirl. 
 
 
+## Installation 
+
+```
+npm install smartkeys
+```
+
 ## Quick Start
 
 The fastest way to get started is to create a handler using the deafults shipped with `smartKeys`. 
