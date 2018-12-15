@@ -61,14 +61,7 @@ const selectKeys = (obj, keys) => (
 
 
 const makeCharMatcher = (charset) => {
-  // console.log(charset)
-  // const charmap = charset.reduce((acc, val) => {
-  //   acc[val] = val;
-  //   return acc;
-  // }, {})
-
   return (input) => {
-    console.log('charmater?', input.key, input.key in charset);
     return input.key in charset
   };
 }
@@ -176,7 +169,6 @@ const or = (matcher1, matcher2) => (event) => {
   if (result.isMatch()) {
     return result
   } else {
-    console.log('second branch of OR')
     return matcher2(event)
   }
 };
