@@ -14,7 +14,7 @@ A tiny experimental library for adding "Insert Pair' and "Surround Selection" Sm
 
 ## Quick Start
 
-The fastest way to get started is to create a handler using deafults shipped with `smartKeys`. 
+The fastest way to get started is to create a handler using the deafults shipped with `smartKeys`. 
 
 ```
 const smartkeysHandler = smartKeys.fromConfig(smartKeys.defaults);
@@ -84,6 +84,6 @@ There is an active [bug in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id
 
 ### State of the Project 
 
-Smartkeys is a quick dump from work on an unrelated editor project. It took me quite awhile to navigate using the incredibly strange and stateful Selection and Range javascript APIs, so thought breaking out this little piece on its own may be of some value to others from an example / how-to point of view.
+Smartkeys is a quick dump from work on an unrelated editor project. It took me quite awhile to navigate using the incredibly strange and stateful Selection and [Range](https://developer.mozilla.org/en-US/docs/Web/API/Range) javascript APIs, so thought breaking out this little piece on its own may be of some value to others from an example / how-to point of view.
 
 It satisfies a few narrow use cases, is written for the happy path, and makes for a fun toy. Probs shouldn't be used in production without a thorough vetting for quirks and a bit of battle hardening!  
