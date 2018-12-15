@@ -83,8 +83,8 @@ Works on any browsers that support the HTML Edit APIs with one minor exception:
 There is an active [bug in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1220696) which prevents the HTML Editing APIs from working correctly. `contenteditables` work fine, the issue is constrained to `textareas`. Smartkeys includes a fallback mode for Firefox (`{firefoxFallbackMode': true}`) which will enable functionality using alternative APIs. However, the caveat there is that undo _does not work_ due to _other_ Firefox issues.
 
 
-### State of the project / future work 
+### About
 
 Smartkeys was born out of work on an unrelated editor. It took me quite awhile to navigate using the incredibly strange and stateful [Selection](https://developer.mozilla.org/en-US/docs/Web/API/Selection) and [Range](https://developer.mozilla.org/en-US/docs/Web/API/Range) APIs, so thought breaking out this little piece on its own may be of some value to others from an example / how-to point of view. 
 
-Related work will be merged into this project as it pops up. 
+
