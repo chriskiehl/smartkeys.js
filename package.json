@@ -1,8 +1,8 @@
 {
-  "name": "smartkeys.js",
+  "name": "smartkeys",
   "version": "0.1.0",
   "description": "Simple IntelliJ style Smartkeys in the browser",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha"
   },

@@ -1,5 +1,5 @@
 /**
- * A wee bit of Basic "Smart Keys" style behavior for
+ * Basic "Smart Keys" style behavior for
  * ContentEditables and textareas.
  */
 
@@ -450,8 +450,5 @@ const fromConfig = (conf) => {
 };
 
 
-const smartKeys = {fromConfig, defaults};
-
-exports = {
-  smartKeys
-};
+exports.fromConfig = fromConfig;
+exports.defaults = defaults;
