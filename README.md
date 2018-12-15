@@ -1,16 +1,15 @@
 # smartkeys.js
 
-IDE style Smart Keys in the Browser!
-
-Just the basics to help technical users feel at home while filling out text.
-
-
-**Demo**
+IDE style [Smart Keys](https://www.jetbrains.com/help/idea/settings-smart-keys.html) in the Browser!
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/1408720/50046778-de1e5880-005d-11e9-9e64-6c161ab32156.gif">
 </p>
 
+
+## What's it do? 
+
+Adds "Insert Pair' and "Surround Selection" behaviors to any ContentEditable DOM node or Textarea. 
 
 
 ## Quick Start
