@@ -11,7 +11,7 @@ IDE style [Smart Keys](https://www.jetbrains.com/help/idea/settings-smart-keys.h
 
 A tiny experimental library for adding "Insert Pair' and "Surround Selection" SmartKey behaviors to any ContentEditable DOM node or Textarea. 
 
-Open the [example](https://github.com/chriskiehl/smartkeys.js/blob/master/examples/example.html) to give it a whirl. 
+Checkout the [example page](https://chriskiehl.github.io/smartkeys.js/) to give it a whirl. 
 
 
 ## Installation 
